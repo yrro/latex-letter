@@ -21,3 +21,7 @@ My requrements are as follows:
 
 To be fair to the `newlfm` class, it _almost_ achieves what I want, but I want
 the subject after the greeting rather than before it.
+
+On a Debian system, the `texlive-latex-extra` package should pull in everything
+needed to generate a pdf, with the `lualatex letter.tex` command. [Here's an
+example of the result](letter.pdf).
