@@ -19,6 +19,7 @@ My requrements are as follows:
  * Separate paragraphs with vertical space
  * Order: sending address (right-aligned), recipient address, date, greeting, subject, body, signoff, signature
  * Page numbers in heading, right-aligned, but not on the first page
+ * Left-justify text
 
 To be fair to the `newlfm` class, it _almost_ achieves what I want, but I want
 the subject after the greeting rather than before it.
