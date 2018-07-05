@@ -1,8 +1,9 @@
 % arguemnts to documentclass are passed to all loaded packages
 \documentclass[11pt,a4paper]{letter}
 
-% increase spacing between paragraphs a little
-\setlength{\parskip}{1em}
+\usepackage[british]{babel}
+
+\usepackage[document]{ragged2e}
 
 \usepackage{blindtext}
 
@@ -15,6 +16,9 @@
 \fancyhf{}
 \rhead{\thepage}
 \renewcommand{\headrulewidth}{0pt}
+
+% increase spacing between paragraphs a little
+%\setlength{\parskip}{1em}
 
 \begin{document}
 
